@@ -1,0 +1,16 @@
+{
+  "name": "edit-like-this",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The code that edited my 'Go crazy' reel: AI captions, background swaps, animations, sound - one script per step.",
+  "type": "module",
+  "scripts": {
+    "transcribe": "node scripts/01_transcribe.mjs",
+    "cutout": "node scripts/03_cutout.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@imgly/background-removal-node": "^1.4.5",
+    "wavefile": "^11.0.0"
+  }
+}

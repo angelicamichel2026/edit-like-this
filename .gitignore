@@ -1,0 +1,10 @@
+work/
+out/
+input/*
+!input/README.md
+node_modules/
+overlay/timeline.js
+__pycache__/
+*.pyc
+.DS_Store
+overlay/img/wall/*.jpg
