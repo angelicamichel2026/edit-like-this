@@ -18,7 +18,7 @@ No editing app and no editor. Each of the seven steps is a script you can read.
 Open Claude in a mode that can run code, attach your vertical video and paste this:
 
 ```text
-Edit my attached video like the "Edit Like This" reel, using this repo: <link to this repo>
+Edit my attached video like the "Edit Like This" reel, using this repo: https://github.com/angelicamichel2026/edit-like-this
 My comment keyword is: EDIT        My name for the DM card is: <your name>
 Follow the README step by step:
 1. Run steps 0-2. Cut the pauses with scripts/tools/find_pauses.py and remove any stumbles or
@@ -36,7 +36,7 @@ Follow the README step by step:
 You need **Python 3.10+**, **Node 18+** and **FFmpeg**.
 
 ```bash
-git clone <link to this repo> edit-like-this && cd edit-like-this
+git clone https://github.com/angelicamichel2026/edit-like-this edit-like-this && cd edit-like-this
 pip install -r requirements.txt
 python3 -m playwright install chromium
 npm install
